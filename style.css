@@ -1,0 +1,85 @@
+*{
+
+align-items: center;
+}
+
+
+h1{
+
+    
+
+    text-align: center;
+    color: goldenrod;
+    background-color: black;
+    padding: 7%;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+
+    margin-bottom: 10%;
+}
+
+
+#PasswordWiederholen{
+
+margin-bottom: 5%;
+
+
+
+}
+
+#vornach{
+
+    margin-bottom: 5%;
+
+    
+
+
+}
+
+
+#form{
+
+
+
+    margin-left: 23%;
+    margin-right: 24%;
+}
+
+#select{
+
+
+    margin-left: 23%;
+    margin-right: 24%;
+
+}
+
+#Num{
+
+
+    margin-left: 23%;
+    margin-right: 24%;
+
+}
+
+
+#adresse{
+
+
+    margin-left: 23%;
+    margin-right: 5%;
+
+}
+
+
+#submit{
+
+
+
+    margin-left: 23%;
+    margin-right: 5%;
+
+    margin-bottom: 20%;
+
+
+}
+
