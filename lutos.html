@@ -7,7 +7,9 @@
      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
      crossorigin="anonymous">
     <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
     <title>Lutos sign up  Form</title>
+    
 </head>
 
 <body>
@@ -115,7 +117,15 @@
 </div>
 <br>
 
-<button id= "submit" type="button" class="btn btn-success">Submit</button>
-      
+<button id= "submit" type="button" class="btn btn-success" >Submit</button>
+     
 </body>
+
+<script>
+  var pressedButton = document.getElementsByTagName("button")[0];
+  pressedButton.addEventListener("click", function (event) {
+     alert("Thank You Your Infos Has been sent!")
+  })
+</script>
+
 </html>
