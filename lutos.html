@@ -116,7 +116,7 @@
 
       <br><br>
 
-<INPUT TYPE="Button" id="Sub" VALUE="Submit" onClick="FormSubmit();" class="btn btn-success" disabled >
+<INPUT TYPE="Button" id="Sub" VALUE="Submit" onClick="FormSubmit();" class="btn btn-success" name="Sub" disabled >
 
     
     
@@ -144,7 +144,7 @@ document.getElementById("Sub").disabled = true;
 
 
 
-  var pressedButton = document.getElementsByTagName("button")[0];
+  var pressedButton = document.getElementsByName("Sub")[0];
   pressedButton.addEventListener("click", function (event) {
      alert("Thank You Your Infos Has been sent!")
   })
