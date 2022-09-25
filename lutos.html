@@ -107,21 +107,43 @@
       <br>
 
 
-      <div class="form-check form-switch">
-        <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" required>
-        <label class="form-check-label" 
-        for="flexSwitchCheckChecked">Ich stimme <span style="font-weight: bold;">und Datenschutzerklärung</span> zu</label>
-      </div>
-    </div>
+      <input type="checkbox" name="chkbx" id='#ID#' value="#seq_claim_id#" onClick="goFurther(this)" >
+      <label> Ich stimme den<span style="font-weight: bold;"> Datenschutzerklärung</span> zu</label>
+     
 
-</div>
-<br>
+     
 
-<button id= "submit" type="button" class="btn btn-success" >Submit</button>
+
+      <br><br>
+
+<INPUT TYPE="Button" id="Sub" VALUE="Submit" onClick="FormSubmit();" class="btn btn-success" disabled >
+
+    
+    
+    
+    
+    
+    
+    
+
      
 </body>
 
+
 <script>
+    function goFurther(elem){
+if (elem.checked == true)
+document.getElementById("Sub").disabled = false;
+else
+document.getElementById("Sub").disabled = true;
+}
+</script>
+
+
+<script>
+
+
+
   var pressedButton = document.getElementsByTagName("button")[0];
   pressedButton.addEventListener("click", function (event) {
      alert("Thank You Your Infos Has been sent!")
